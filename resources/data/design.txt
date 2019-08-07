@@ -1,0 +1,4 @@
+- For rest calls I could have used a Factory of all CRUD operations
+- Test and main application DB connection I could have used tcp for multiple connections | now only one. so tests may fail due to connection 
+  if main application is running 
+  - I could have seperated test for each service
